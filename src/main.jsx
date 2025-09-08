@@ -1,7 +1,8 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import GreetingComponent from './GreetingComponent'
+import App from './App'
 
 createRoot(document.getElementById('root')).render(
-  <GreetingComponent />
+  <App />
 )

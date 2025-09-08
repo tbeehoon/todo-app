@@ -24,15 +24,18 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  text-align: left;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, div {
+  text-align: left;
 }
 
 button {
@@ -52,6 +55,18 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.todo-list-left {
+  text-align: left;
+  margin-left: 0;
+}
+
+.todo-list-ul-left {
+  text-align: left;
+  margin-left: 0;
+  padding-left: 1.5em;
+  list-style-position: inside;
 }
 
 @media (prefers-color-scheme: light) {
