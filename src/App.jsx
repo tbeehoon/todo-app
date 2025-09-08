@@ -3,11 +3,17 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+// GreetingComponent definition
+function GreetingComponent() {
+  return <h2>Hello from GreetingComponent!</h2>;
+}
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <GreetingComponent />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
