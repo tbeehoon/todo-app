@@ -18,11 +18,11 @@ This readme shows:
 
 ## 1. Task1 - Explain React Core Features and its advantages
 
-### React Core Features
+### 1.1 React Core Features
 
 The following is a brief explanation of React’s core features: component-based architecture, Virtual DOM, and unidirectional data flow
 
-#### **Component-Based Architecture**
+#### 1.1.1 **Component-Based Architecture**
 
 - React applications are built using reusable, self-contained components.
 
@@ -32,7 +32,7 @@ The following is a brief explanation of React’s core features: component-based
 - Components accept **props** (inputs) and manage internal **state**, then compose together like Lego bricks to form whole pages.
 - This keeps concerns local and makes reuse easy.
 
-#### **Virtual DOM**
+#### 1.1.2 **Virtual DOM**
 
 - React uses a Virtual DOM, which is a lightweight copy of the actual DOM.
 
@@ -41,7 +41,7 @@ The following is a brief explanation of React’s core features: component-based
 
 - This approach improves performance, especially in large and dynamic applications.
 
-#### **Unidirectional Data Flow**
+#### 1.1.3**Unidirectional Data Flow**
 
 - Data in React flows in a single direction, from parent to child components via props.
 - State changes trigger re-renders that propagate downward.
@@ -51,7 +51,7 @@ The following is a brief explanation of React’s core features: component-based
 
   
 
-### Advantages
+### 1.2 Advantages
 
 These features collectively enable developers to build scalable, high-performance, and maintainable web applications.
 
@@ -135,7 +135,7 @@ b) Render the component using ReactDOM.render() to display it on the page.
 
 The 3 files are modified to complete the task:
 
-a. **GreetingComponent**: Created as a separate file (src/GreetingComponent.jsx) that returns a simple JSX element.  The JSX element is "*<h2>Hello from GreetingComponent!</h2>*".
+a. **GreetingComponent**: Created as a separate file (src/GreetingComponent.jsx) that returns a simple JSX element.  
 
 ![](./public/Task3-component.jpg)
 
@@ -169,7 +169,7 @@ b) The component should display at least three items in the list using JSX.
 
 The 4 files are modified to complete the task:
 
-a. **GreetingComponent**: using the same  file (src/GreetingComponent.jsx) that returns a simple JSX element with slight modification. The JSX element is "**<h2>Hello from Bee Work List!</h2>**".
+a. **GreetingComponent**: using the same  file (src/GreetingComponent.jsx) that returns a simple JSX element with slight modification. 
 
 b. **TodoList**: create a new file (src/TodoList.jsx) that contains the TodoList component and exports it as default. Also, use React-Bootstrap components for layout.
 
@@ -207,7 +207,7 @@ https://github.com/tbeehoon/todo-app/tree/main
 
 ## 5. How to set up the environment
 
-### Install NVM (Node Version Manager)
+### 5.1 Install NVM (Node Version Manager)
 
 Download the latest `nvm-setup.exe` from the releases page: https://github.com/coreybutler/nvm-windows/releases
 
@@ -225,7 +225,7 @@ nvm -version
 
 
 
-### Install Node.js via NVM and set a default
+### 5.2 Install Node.js via NVM and set a default
 
 Install the version required (LTS recommended), then make it the default so new terminals pick it automatically.
 
@@ -259,7 +259,7 @@ npm -v
 
 
 
-### Create a new React app with Vite
+### 5.3 Create a new React app with Vite
 
 From any workspace folder in your terminal:
 
@@ -284,7 +284,7 @@ npm run dev
 
 
 
-### Add Bootstrap to the React project
+### 5.4 Add Bootstrap to the React project
 
 Install Bootstrap and its dependencies:
 
@@ -319,7 +319,7 @@ export default App
 
 
 
-### Initialize Git
+### 5.5 Initialize Git
 
 Version control the project using Git.
 
@@ -356,7 +356,7 @@ git config --global user.name "Your Name"
 
 
 
-### Setup .gitignore
+### 5.6 Setup .gitignore
 
 Add a `.gitignore` file in the root of the project to exclude files and folders not required in version control. Some examples of items to include:
 
